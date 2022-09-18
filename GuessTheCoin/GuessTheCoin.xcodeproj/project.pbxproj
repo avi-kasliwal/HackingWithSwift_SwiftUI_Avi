@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824CCCD028D71F5200C9FF3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824CCCCF28D71F5200C9FF3B /* Constants.swift */; };
 		82F1431628D6B23000A94A9D /* GuessTheCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F1431528D6B23000A94A9D /* GuessTheCoinApp.swift */; };
 		82F1431828D6B23000A94A9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F1431728D6B23000A94A9D /* ContentView.swift */; };
 		82F1431A28D6B23100A94A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F1431928D6B23100A94A9D /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		824CCCCF28D71F5200C9FF3B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		824CCCD128D7749C00C9FF3B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		82F1431228D6B23000A94A9D /* GuessTheCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F1431528D6B23000A94A9D /* GuessTheCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCoinApp.swift; sourceTree = "<group>"; };
 		82F1431728D6B23000A94A9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		82F1430928D6B23000A94A9D = {
 			isa = PBXGroup;
 			children = (
+				824CCCD128D7749C00C9FF3B /* README.md */,
 				82F1431428D6B23000A94A9D /* GuessTheCoin */,
 				82F1431328D6B23000A94A9D /* Products */,
 			);
@@ -55,6 +59,7 @@
 				82F1431728D6B23000A94A9D /* ContentView.swift */,
 				82F1431928D6B23100A94A9D /* Assets.xcassets */,
 				82F1431B28D6B23100A94A9D /* Preview Content */,
+				824CCCCF28D71F5200C9FF3B /* Constants.swift */,
 			);
 			path = GuessTheCoin;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				82F1431828D6B23000A94A9D /* ContentView.swift in Sources */,
 				82F1431628D6B23000A94A9D /* GuessTheCoinApp.swift in Sources */,
+				824CCCD028D71F5200C9FF3B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +276,14 @@
 				DEVELOPMENT_TEAM = 7V4G822WB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Coinn;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +308,14 @@
 				DEVELOPMENT_TEAM = 7V4G822WB4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Coinn;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
